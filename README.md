@@ -1,3 +1,3 @@
 # Muscovado
 
-A description of this package.
+Sugar for SwiftUI
