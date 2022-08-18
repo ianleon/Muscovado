@@ -17,8 +17,8 @@ struct PaddingXY: ViewModifier {
 }
 
 @available(iOS 15, macOS 12.0, *)
-extension View {
-    public func paddingXY(_ x: CGFloat, _ y: CGFloat) -> some View {
+public extension View {
+    func paddingXY(_ x: CGFloat, _ y: CGFloat) -> some View {
         modifier(PaddingXY(paddingX: x, paddingY: y))
     }
 }
